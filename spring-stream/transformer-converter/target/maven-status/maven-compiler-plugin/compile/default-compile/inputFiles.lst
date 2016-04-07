@@ -1,0 +1,10 @@
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/domain/Foo.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/Application.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/sink/SinkMoudle.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/converter/FooToBarConverter.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/converter/SampleTransformer.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/converter/ConverterConfig.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/source/SourceMoudle.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/source/MultiSource.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/sink/MultiSink.java
+/Users/hushuming/Desktop/git-repo/spring-cloud-stream/transform-converter/spring-stream/transformer-converter/src/main/java/demo/domain/Bar.java

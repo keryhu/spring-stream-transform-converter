@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    stream:
+      bindings:
+      #此处的 input1 对应 自定义的 MultiSink.INPUT1 ，是一个channel name
+        sample-source: 
+        # input1 和 input2 为了相互隔离，使用了不同的destination test1 和 test2
+          destination: testtock
+        input:
+          destination: testtock
+      #此处的 output1 对应 自定义的 MultiSource.INPUT1 ，是一个channel name
+        output:
+          destination: xformed
+        sample-sink:
+          destination: xformed
+        
+          
+       
+          
+   
