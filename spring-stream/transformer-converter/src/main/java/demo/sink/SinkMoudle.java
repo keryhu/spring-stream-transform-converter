@@ -6,7 +6,7 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import demo.domain.Bar;
 
 /**
- * 多个接受者sink
+ * 最后接受到的消息是 经过 FooToBarConverter  和  SampleTransformer 两者转换后的结果
  * @author hushuming
  *
  */

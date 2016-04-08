@@ -7,6 +7,11 @@ import org.springframework.messaging.handler.annotation.SendTo;
 
 import demo.domain.Bar;
 
+/**
+ * 这个功能是在FooToBarConverter 之后执行 将barMessage ，内容 更改为 TRANSFORMATION_VALUE = "HI"
+ * @author hushuming
+ *
+ */
 @EnableBinding(Processor.class)
 public class SampleTransformer {
 	

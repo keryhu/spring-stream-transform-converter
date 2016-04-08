@@ -3,6 +3,7 @@ package demo.converter;
 import org.springframework.cloud.stream.converter.AbstractFromMessageConverter;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.converter.MessageConversionException;
+import org.springframework.stereotype.Component;
 import org.springframework.util.MimeType;
 
 import demo.domain.Bar;
@@ -13,7 +14,7 @@ import demo.domain.Foo;
  * @author hushuming
  *
  */
-
+@Component
 public class FooToBarConverter extends AbstractFromMessageConverter{
 	
 	public FooToBarConverter() {
