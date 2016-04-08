@@ -5,13 +5,12 @@ spring:
   cloud:
     stream:
       bindings:
-      #此处的 input1 对应 自定义的 MultiSink.INPUT1 ，是一个channel name
+      #因为此程序经过了两到转换，才到了接受者手中，所以发送消息的2个保持 destination一致。sample-source 的output
+     # 然后到了 SampleTRansformer的 input,接受者，然后，再发送消息output到 sample-source的sink，对象，
         sample-source: 
-        # input1 和 input2 为了相互隔离，使用了不同的destination test1 和 test2
           destination: testtock
         input:
           destination: testtock
-      #此处的 output1 对应 自定义的 MultiSource.INPUT1 ，是一个channel name
         output:
           destination: xformed
         sample-sink:
